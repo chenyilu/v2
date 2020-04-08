@@ -36,11 +36,7 @@ cat << EOF > /tmp/v2/config.json
 
 EOF
 
-#CHECK
-echo 检测文件
-cat /tmp/v2/config.json
-
 echo 开始运行
 /tmp/v2/v2ray -config /tmp/v2/config.json
 
-echo 运行结束
+echo 如果看到此信息，代表运行失败。
